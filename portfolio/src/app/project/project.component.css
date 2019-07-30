@@ -1,0 +1,22 @@
+.projectThumb {
+    float:left;
+}
+  
+.divThumbLabel {
+    width:220px;
+    background: #53d699;
+    height:50px;
+    position:relative;
+    bottom:110px;
+    opacity: 0.8;
+    left:20px;
+    
+}
+
+.divThumbText {
+    font-weight: bold;
+    font-size:14pt;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+}
