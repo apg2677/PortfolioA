@@ -22,6 +22,7 @@ export class PortfolioComponent implements OnInit {
   }
   LoadProject(project) {
     alert("Load:" + project.name);
+    window.location.href = project.link;
   }
 }
 // this.portfolioLinks = ["https://apg2677.github.io/unit-4-game/", "https://apg2677.github.io/TriviaGame/",
