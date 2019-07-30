@@ -14,5 +14,8 @@ export class ProjectComponent implements OnInit {
     console.log("project: " + this.project);
 
   }
+  LoadProject() {
+    alert("Load");
+  }
 
 }

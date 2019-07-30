@@ -1,7 +1,7 @@
 <ul>
     <li class="projectThumb" *ngFor='let project of portfolioLinks'>
         <div>
-            <app-project project={{project}}></app-project>
+            <app-project (click)='LoadProject(project)' project={{project.name}}></app-project>
         </div>
     </li>
 </ul>

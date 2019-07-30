@@ -14,10 +14,14 @@ export class PortfolioComponent implements OnInit {
 
   ngOnInit() {
        this.portfolioLinks = [
-         {id: 1, name: 'test1'},
-         {id: 2, name:'test2'}
+         {id: 1, name: 'RPG Game', link: "https://apg2677.github.io/unit-4-game/"},
+         {id: 2, name:'Trivia', link: "https://apg2677.github.io/TriviaGame"},
+         {id:3, name: 'Psychic', link: "https://apg2677.github.io/Psychic-Game/"}
        ];
      
+  }
+  LoadProject(project) {
+    alert("Load:" + project.name);
   }
 }
 // this.portfolioLinks = ["https://apg2677.github.io/unit-4-game/", "https://apg2677.github.io/TriviaGame/",
