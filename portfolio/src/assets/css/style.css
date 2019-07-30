@@ -1,0 +1,200 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
+/* Main Header */
+#name {
+    background: #4aaaa5;
+    display:inline-block;
+    margin-left:10px;
+    padding: 10px;
+    font-size:18pt;
+    font-weight:bold;
+    color:#fff;
+}
+.mainHeader {
+    width: 100%;
+
+    border-bottom:2px solid #bbb;
+    padding-bottom: 2px;
+}
+
+/* nav {
+    display: inline-block;
+    font-size:14pt;z
+   position: relative;
+   left:530px;
+    
+} */
+
+a {
+    color:#aaa;
+    text-decoration: none; 
+}
+
+/* End Main Header */
+
+.mainContent {
+    background: #eee;
+    /* width:960px; */
+    height:700px; 
+    /* margin:0 auto; */
+    padding:10px;
+}
+.contentHeading {
+    font-size:18pt;
+    font-weight:bold;
+    background:#ffF;
+    margin-top:10px;
+    padding-left:10px;
+    color: #4aaaa5;
+    
+    
+
+}
+.divInside {
+    
+    width:960px;
+    margin:0 auto;
+}
+
+.content {
+    height:500px;
+    background:#fff;
+    margin-top:25px;
+    padding-top:25px;
+}
+
+section {
+    /* border:1px solid #fff;
+    border-radius: 8px; */
+}
+
+#headShot {
+    width:200px;
+    height:200px;
+    background: green;
+}
+
+.formControl {
+    /* padding:5px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+}  
+    
+
+.btnSubmit {
+    /* background: #4aaaa5;
+    font-size:12pt;
+    padding:10px;
+    color:#fff; */
+}
+
+.txtBox {
+    /* width:95%;
+    margin-top:10px;
+    margin-bottom:10px;
+    height:25px; */
+}
+
+.txtAreaBox {
+    /* width:95%;
+    height:200px;
+    margin-top:10px;
+    margin-bottom: 10px; */
+}
+
+/* #mainText {
+    float:right;
+    width:500px;
+    margin-right:150px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.divThumbNail {
+    /* width:180px;
+    height:180px;
+    float: left;
+    margin-right: 30px;
+    margin-left:20px; */
+}
+
+.divThumbLabel {
+    width:220px;
+    background: #53d699;
+    height:50px;
+    position:relative;
+    bottom:110px;
+    opacity: 0.8;
+    left:20px;
+    
+}
+
+.divThumbText {
+    font-weight: bold;
+    font-size:14pt;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.imgPortfolio {
+    /* width:100%;
+    height:200px; */
+}
+
+.divBioImage {
+   margin-left:20px;
+}
+
+.articleAbout {
+  
+    width:500px;
+    position: absolute;
+    bottom:205px;
+    right:290px;
+}
+
+#info {
+    padding:25px;
+    line-height: 1.5;
+}
+
+#hobbies {
+    padding-left:25px;
+}
+
+.divHeadBorder {
+   border-bottom:4px solid #4aaaa5;
+   width:100%;
+   padding-top:20px;
+   margin-left:-10px;
+   padding-bottom:10px;
+   margin-bottom: 20px;
+}
+
+.lblKey {
+    color: #4aaaa5;
+    font-weight:bold;
+   
+  
+}
+
+/* .lblVal {
+    float:left;
+}
+
+.clearFix {
+    clear:both;
+}
+
+table tr td {
+    width:70px;
+} */
+#mainText {
+    /* width:400px;
+    float:right;
+    margin-right:200px;
+     */
+}
