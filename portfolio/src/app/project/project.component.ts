@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ProjectComponent implements OnInit {
   @Input() project: any;
+  @Input() image:any;
   
   constructor() { }
 
@@ -14,8 +15,6 @@ export class ProjectComponent implements OnInit {
     console.log("project: " + this.project);
 
   }
-  LoadProject() {
-    alert("Load");
-  }
+
 
 }

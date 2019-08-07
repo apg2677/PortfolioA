@@ -1,7 +1,11 @@
-<ul>
-    <li class="projectThumb" *ngFor='let project of portfolioLinks'>
-        <div>
-            <app-project (click)='LoadProject(project)' project={{project.name}}></app-project>
-        </div>
-    </li>
-</ul>
+<div class="container">
+    <ul class="card-group list-unstyled">
+        <li class="projectThumb" *ngFor='let project of portfolioLinks'>
+            <div class="p-3">
+
+                <app-project (click)='LoadProject(project)' project={{project.name}} image={{project.img}}>
+                </app-project>
+            </div>
+        </li>
+    </ul>
+</div>
