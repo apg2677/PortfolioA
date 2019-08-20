@@ -1,7 +1,7 @@
 // Get dependencies
-const express = require('express');
-const path = require('path');
-const http = require('http');
+const express = require("express");
+const path = require("path");
+const http = require("http");
 // const bodyParser = require('body-parser');
 // const morgan = require('morgan');
 // const proxy = require('express-http-proxy');
@@ -13,8 +13,7 @@ const app = express();
 // app.use(cors());
 
 // Point static path to dist
-app.use(express.static(path.join(__dirname, 'dist')));
-
+app.use(express.static(path.join(__dirname, "dist/portfolio")));
 
 console.log("Using node server");
 // var Client = require('node-rest-client').Client;
@@ -26,17 +25,16 @@ console.log("Using node server");
 //     });
 // });
 
-
 // Catch all other routes and return the index file
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'dist/index.html'));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "dist/portfolio/index.html"));
 });
 
 /**
  * Get port from environment and store in Express.
  */
-const port = process.env.PORT || '3001';
-app.set('port', port);
+const port = process.env.PORT || "3001";
+app.set("port", port);
 
 /**
  * Create HTTP server.
